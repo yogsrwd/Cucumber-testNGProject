@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="16" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-01T15:59:47 IST" name="Suite" finished-at="2025-03-01T16:01:40 IST" duration-ms="112810">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@2002fc1d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-01T15:59:47 IST" name="Test-Runner1" finished-at="2025-03-01T16:00:02 IST" duration-ms="15001">
+      <class name="runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.Runner@2002fc1d]" started-at="2025-03-01T15:59:47 IST" name="setUpClass" finished-at="2025-03-01T15:59:48 IST" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@da09250]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@2002fc1d]" started-at="2025-03-01T15:59:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-01T16:00:02 IST" duration-ms="14297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check all Checkboxes in nested options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Check Box functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@2002fc1d]" started-at="2025-03-01T16:00:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-01T16:00:02 IST" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing the Elements option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the ToolsQA website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Runner@2002fc1d]" started-at="2025-03-01T16:00:02 IST" name="tearDownClass" finished-at="2025-03-01T16:00:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Test-Runner1 -->
+    <test started-at="2025-03-01T16:00:02 IST" name="Test-ElementBar" finished-at="2025-03-01T16:00:25 IST" duration-ms="22254">
+      <class name="stepdefinitions.ElementBar">
+        <test-method signature="RadioButton()[pri:1, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:02 IST" name="RadioButton" finished-at="2025-03-01T16:00:03 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButton -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:03 IST" name="tearDown1" finished-at="2025-03-01T16:00:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RadioButton status=SUCCESS method=ElementBar.RadioButton()[pri:1, instance:stepdefinitions.ElementBar@16a9a4f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="WebTables()[pri:2, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:03 IST" name="WebTables" finished-at="2025-03-01T16:00:10 IST" duration-ms="6688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebTables -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:10 IST" name="tearDown1" finished-at="2025-03-01T16:00:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WebTables status=SUCCESS method=ElementBar.WebTables()[pri:2, instance:stepdefinitions.ElementBar@16a9a4f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="ButtonsBar()[pri:3, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:10 IST" name="ButtonsBar" finished-at="2025-03-01T16:00:10 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonsBar -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:10 IST" name="tearDown1" finished-at="2025-03-01T16:00:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ButtonsBar status=SUCCESS method=ElementBar.ButtonsBar()[pri:3, instance:stepdefinitions.ElementBar@16a9a4f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="linksBar()[pri:4, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:10 IST" name="linksBar" finished-at="2025-03-01T16:00:14 IST" duration-ms="4263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linksBar -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:14 IST" name="tearDown1" finished-at="2025-03-01T16:00:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=linksBar status=SUCCESS method=ElementBar.linksBar()[pri:4, instance:stepdefinitions.ElementBar@16a9a4f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="brokenImage()[pri:5, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:14 IST" name="brokenImage" finished-at="2025-03-01T16:00:16 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenImage -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:16 IST" name="tearDown1" finished-at="2025-03-01T16:00:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=brokenImage status=SUCCESS method=ElementBar.brokenImage()[pri:5, instance:stepdefinitions.ElementBar@16a9a4f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="UploadDownload()[pri:6, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:16 IST" name="UploadDownload" finished-at="2025-03-01T16:00:16 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadDownload -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:16 IST" name="tearDown1" finished-at="2025-03-01T16:00:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadDownload status=SUCCESS method=ElementBar.UploadDownload()[pri:6, instance:stepdefinitions.ElementBar@16a9a4f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="dynamicProperty()[pri:7, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:16 IST" name="dynamicProperty" finished-at="2025-03-01T16:00:25 IST" duration-ms="8158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicProperty -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.ElementBar@16a9a4f1]" started-at="2025-03-01T16:00:25 IST" name="tearDown1" finished-at="2025-03-01T16:00:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dynamicProperty status=SUCCESS method=ElementBar.dynamicProperty()[pri:7, instance:stepdefinitions.ElementBar@16a9a4f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+      </class> <!-- stepdefinitions.ElementBar -->
+    </test> <!-- Test-ElementBar -->
+    <test started-at="2025-03-01T16:00:25 IST" name="Test-Calendar" finished-at="2025-03-01T16:00:36 IST" duration-ms="11109">
+      <class name="stepdefinitions.Calendar">
+        <test-method signature="getFormsGiantBar()[pri:8, instance:stepdefinitions.Calendar@62e6a3ec]" started-at="2025-03-01T16:00:25 IST" name="getFormsGiantBar" finished-at="2025-03-01T16:00:36 IST" duration-ms="11107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormsGiantBar -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.Calendar@62e6a3ec]" started-at="2025-03-01T16:00:36 IST" name="tearDown1" finished-at="2025-03-01T16:00:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getFormsGiantBar status=SUCCESS method=Calendar.getFormsGiantBar()[pri:8, instance:stepdefinitions.Calendar@62e6a3ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+      </class> <!-- stepdefinitions.Calendar -->
+    </test> <!-- Test-Calendar -->
+    <test started-at="2025-03-01T16:00:36 IST" name="Test-AlertFrameWindows" finished-at="2025-03-01T16:01:20 IST" duration-ms="44130">
+      <class name="stepdefinitions.AlertFrameWindowws">
+        <test-method signature="browserWindow()[pri:9, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c]" started-at="2025-03-01T16:00:36 IST" name="browserWindow" finished-at="2025-03-01T16:00:46 IST" duration-ms="10549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWindow -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c]" started-at="2025-03-01T16:00:46 IST" name="tearDown1" finished-at="2025-03-01T16:00:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=browserWindow status=SUCCESS method=AlertFrameWindowws.browserWindow()[pri:9, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="alertBar()[pri:10, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c]" started-at="2025-03-01T16:00:46 IST" name="alertBar" finished-at="2025-03-01T16:01:01 IST" duration-ms="14965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertBar -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c]" started-at="2025-03-01T16:01:01 IST" name="tearDown1" finished-at="2025-03-01T16:01:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertBar status=SUCCESS method=AlertFrameWindowws.alertBar()[pri:10, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="frames()[pri:11, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c]" started-at="2025-03-01T16:01:01 IST" name="frames" finished-at="2025-03-01T16:01:09 IST" duration-ms="8287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frames -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c]" started-at="2025-03-01T16:01:09 IST" name="tearDown1" finished-at="2025-03-01T16:01:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=frames status=SUCCESS method=AlertFrameWindowws.frames()[pri:11, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="nestedFrame()[pri:12, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c]" started-at="2025-03-01T16:01:09 IST" name="nestedFrame" finished-at="2025-03-01T16:01:20 IST" duration-ms="10318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nestedFrame -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c]" started-at="2025-03-01T16:01:20 IST" name="tearDown1" finished-at="2025-03-01T16:01:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nestedFrame status=SUCCESS method=AlertFrameWindowws.nestedFrame()[pri:12, instance:stepdefinitions.AlertFrameWindowws@1eb6e1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+      </class> <!-- stepdefinitions.AlertFrameWindowws -->
+    </test> <!-- Test-AlertFrameWindows -->
+    <test started-at="2025-03-01T16:01:20 IST" name="Test-Widgets" finished-at="2025-03-01T16:01:40 IST" duration-ms="20276">
+      <class name="stepdefinitions.Widgets">
+        <test-method is-config="true" signature="setupReports()[pri:0, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T15:59:47 IST" name="setupReports" finished-at="2025-03-01T15:59:47 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReports -->
+        <test-method signature="slider()[pri:13, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:20 IST" name="slider" finished-at="2025-03-01T16:01:26 IST" duration-ms="6025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:26 IST" name="tearDown1" finished-at="2025-03-01T16:01:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=slider status=SUCCESS method=Widgets.slider()[pri:13, instance:stepdefinitions.Widgets@3afae281] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="progressBar()[pri:14, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:26 IST" name="progressBar" finished-at="2025-03-01T16:01:27 IST" duration-ms="1482" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="text">...</span> is not clickable at point (134, 781). Other element would receive the click: <div id="fixedban" style="width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:9999999">...</div>
+  (Session info: chrome=133.0.6943.142)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c005f9d26cb319c90aadd9debe4f9cc0, clickElement {id=f.FE4E8DF3313B416ACA816838B21FF1BB.d.2F194D0A8C138F1DC6F7BA5464334213.e.240}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\yoges\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51782/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c005f9d26cb319c90aadd9debe4f9cc0)] -> xpath: //span[@class='text' and text()='Progress Bar']]
+Session ID: c005f9d26cb319c90aadd9debe4f9cc0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text">...</span> is not clickable at point (134, 781). Other element would receive the click: <div id="fixedban" style="width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:9999999">...</div>
+  (Session info: chrome=133.0.6943.142)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c005f9d26cb319c90aadd9debe4f9cc0, clickElement {id=f.FE4E8DF3313B416ACA816838B21FF1BB.d.2F194D0A8C138F1DC6F7BA5464334213.e.240}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\yoges\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51782/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c005f9d26cb319c90aadd9debe4f9cc0)] -> xpath: //span[@class='text' and text()='Progress Bar']]
+Session ID: c005f9d26cb319c90aadd9debe4f9cc0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at stepdefinitions.Widgets.progressBar(Widgets.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- progressBar -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:27 IST" name="tearDown1" finished-at="2025-03-01T16:01:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=progressBar status=FAILURE method=Widgets.progressBar()[pri:14, instance:stepdefinitions.Widgets@3afae281] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="hoverMenu()[pri:15, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:27 IST" name="hoverMenu" finished-at="2025-03-01T16:01:29 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverMenu -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:29 IST" name="tearDown1" finished-at="2025-03-01T16:01:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hoverMenu status=SUCCESS method=Widgets.hoverMenu()[pri:15, instance:stepdefinitions.Widgets@3afae281] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method signature="selectMenu()[pri:16, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:29 IST" name="selectMenu" finished-at="2025-03-01T16:01:40 IST" duration-ms="10650" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class=' css-yk16xz-control'])[1]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c005f9d26cb319c90aadd9debe4f9cc0, findElement {using=xpath, value=(//div[@class=' css-yk16xz-control'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\yoges\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51782/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c005f9d26cb319c90aadd9debe4f9cc0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class=' css-yk16xz-control'])[1]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c005f9d26cb319c90aadd9debe4f9cc0, findElement {using=xpath, value=(//div[@class=' css-yk16xz-control'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\yoges\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51782/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c005f9d26cb319c90aadd9debe4f9cc0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at stepdefinitions.Widgets.selectMenu(Widgets.java:166)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMenu -->
+        <test-method is-config="true" signature="tearDown1(org.testng.ITestResult)[pri:0, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:40 IST" name="tearDown1" finished-at="2025-03-01T16:01:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectMenu status=FAILURE method=Widgets.selectMenu()[pri:16, instance:stepdefinitions.Widgets@3afae281] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:stepdefinitions.Widgets@3afae281]" started-at="2025-03-01T16:01:40 IST" name="flushReport" finished-at="2025-03-01T16:01:40 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- stepdefinitions.Widgets -->
+    </test> <!-- Test-Widgets -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false"> <!-- Setting parallel to false ensures sequential execution -->
+	<test name="Test-Runner1">
+		<classes>
+			<class name="runner.Runner" /> <!-- First Runner to be executed -->
+		</classes>
+	</test>
+
+	<test name="Test-ElementBar">
+		<classes>
+			<class name="stepdefinitions.ElementBar" />
+		</classes>
+	</test>
+	<test name="Test-Calendar">
+		<classes>
+			<class name="stepdefinitions.Calendar" />
+		</classes>
+	</test>
+
+	<test name="Test-AlertFrameWindows">
+		<classes>
+			<class name="stepdefinitions.AlertFrameWindowws" />
+		</classes>
+	</test>
+
+	<test name="Test-Widgets">
+		<classes>
+			<class name="stepdefinitions.Widgets" />
+		</classes>
+	</test>
+
+
+
+</suite>
+
+
+
